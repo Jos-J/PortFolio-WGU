@@ -6,10 +6,13 @@
 
 body {
   margin: 40px;
-  background-color:whitesmoke;
+  background-color: whitesmoke;
 }
 
-header, nav, main, footer {
+header,
+nav,
+main,
+footer {
   margin-bottom: 20px;
 }
 
@@ -27,7 +30,8 @@ nav li a:hover {
   background-color: goldenrod;
 }
 
-nav li a:visited,a:active {
+nav li a:visited,
+a:active {
   color: black;
 }
 
@@ -39,10 +43,6 @@ a {
 footer :hover {
   color: goldenrod;
 }
-/* nav li a.current {
-  text-decoration: none;
-} */
-
 
 table {
   border-collapse: collapse;
@@ -51,7 +51,8 @@ table {
   padding: 10px;
 }
 
-th, td {
+th,
+td {
   border: 1px solid #333;
   padding: 8px;
   text-align: left;
@@ -62,19 +63,20 @@ caption {
   font-weight: bold;
   margin-bottom: 5px;
 }
+
 h1 img {
-    border-radius: 50%;
-    background-color: #f9f9f9;
-    color: black;
+  border-radius: 50%;
+  background-color: #f9f9f9;
+  color: black;
 }
 
 #media-list ul {
-    list-style-type: none;
-      padding-left: 0;        
-      margin-left: 0;         
-      display: flex;          
-      flex-direction: column; 
-      gap: 20px;
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .highlight {
