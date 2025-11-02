@@ -3,62 +3,120 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Resume</title>
-
-  <!-- Link to external CSS -->
-  <link rel="stylesheet" href="css/style.css" />
+  <title> James - Back-End Developer Cv</title>
+  <link rel="stylesheet" href="./styles/style.css" />
 </head>
 
 <body>
+  
   <header>
-    <h1>John Doe</h1>
-    <h2>Web Developer</h2>
+    <h1> James 
+      <img src="./assets/images/avatar.jpg" alt="Profile Photo" width="150" /></h1> 
+    <h2>Back-End Developer</h2> 
+    <h3>Portfolio & CV</h3> 
   </header>
 
+  <!-- NAVIGATION ✅ -->
   <nav>
     <ul>
-      <li><a href="resume.html">Resume</a></li>
-      <li><a href="cover-letter.html">Cover Letter</a></li>
-      <li><a href="career-goals.html">Career Goals</a></li>
+      <li><a href="coverletter.html">Cover Letter</a></li>
+      <li><a href="careegoals.html">Career Goals</a></li>
     </ul>
   </nav>
 
-  <main>
-    <section>
-      <h3>Experience</h3>
-      <p><strong>Front-End Developer</strong> at <em>Example Corp</em></p>
-      <p>Developed user-friendly interfaces using HTML, CSS, and JavaScript.</p>
-    </section>
+  <hr /> 
 
+  <!-- MAIN CONTENT ✅ -->
+  <main>
+    <!-- EXPERIENCE ARTICLE ✅ -->
+    <article>
+      <section>
+        <h3>Professional Experience</h3>
+        <p>
+          <strong>Back-End Developer</strong> at <em> ZZZ Corp</em><br /> Developed and maintained server-side applications, implemented RESTful APIs, and managed SQL and NoSQL databases Optimized server performance and query efficiency, ensured secure user authentication, and implemented caching strategies to reduce load times. Led code reviews, mentored junior developers, and collaborated with DevOps to streamline deployment pipelines. <br /> Key technologies: Node.js, Express.js, Prima, PostgreSQL, Redis, Docker, and AWS. </p>
+       <p>
+        <strong>Junior Back-End Developer</strong> at <em>WebWorks</em><br /> Collaborated with front-end teams to integrate APIs and improve data flow. Built authentication and authorization systems, wrote automated unit and integration tests, and monitored application performance using logging and metrics. Assisted in database design and optimization, ensuring scalability for growing user bases. <br /> Key technologies: Node.js, Express.js, MySQL, pgAdmin4, Git, and CI/CD pipelines. </p>
+      </section>
+    </article>
+
+    <!-- EDUCATION SECTION ✅ -->
     <section>
       <h3>Education</h3>
       <table>
-        <caption>Academic Background</caption>
-        <tr><th>Degree</th><th>School</th><th>Year</th><th>GPA</th></tr>
-        <tr><td>BS in Computer Science</td><td>ABC University</td><td>2024</td><td>3.9</td></tr>
-        <tr><td>AS in IT</td><td>XYZ College</td><td>2022</td><td>3.8</td></tr>
+        <caption> Academic Background </caption>
+        <thead>
+        <tr>
+          <th> Degree</th>
+          <th>University</th>
+          <th>Grad Year</th>
+          <th>GPA</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>BS in Computer Science</td>
+          <td>State U</td>
+          <td>2024</td>
+          <td>3.9</td>
+        </tr>
+        <tr>
+          <td>BS in IT</td>
+          <td>State A&M</td>
+          <td>2021</td>
+          <td>3.8</td>
+        </tr>
+        </tbody>
       </table>
     </section>
 
+    <!-- SKILLS SECTION ✅ -->
     <section>
-      <h3>Media Samples</h3>
-      <img src="media/photo.jpg" alt="Profile Photo" width="150" />
-      <audio controls>
-        <source src="media/audio.mp3" type="audio/mpeg" />
-      </audio>
-      <video controls width="320">
-        <source src="media/video.mp4" type="video/mp4" />
-      </video>
+      <h3>Technical Skills</h3>
+      <p>Key back-end development skills include:</p>
+      <ul>
+        <li>Node.js & Express.js</li>
+        <li>RESTful API design</li>
+        <li>SQL & PostgreSQL  databases (MySQL, pgAdmin4 )</li>
+        <li>Server optimization and security</li>
+      </ul>
+    </section>
+
+    <!-- MEDIA SECTION ✅ -->
+    <section id="media-list">
+      <h3>Portfolio Media</h3>
+      <p>Here are some sample media elements:</p>
+       <ul>
+        <li>
+          <audio controls>
+            <source src="./assets/audio/darthvader-lack-of-faith.mp3" type="audio/mpeg" />
+          </audio>
+        </li>
+        <li>
+          <audio controls>
+            <source src="./assets/audio/yesmy-master.mp3" type="audio/mpeg" />
+          </audio>
+        </li>
+        <li>
+          <video controls width="320">
+            <source src="./assets/video/lepard.mp4" type="video/mp4" />
+          </video>
+        </li>
+        <li>
+          <video controls width="320">
+            <source src="./assets/video/citytraffic.mp4" type="video/mp4" />
+          </video>
+        </li>
+      </ul>
+
     </section>
   </main>
+  <hr />
 
   <footer>
-    <div id="current-date"></div>
-    <hr />
-    <p>&copy; 2025 John Doe</p>
+    <div id="date"></div> 
+    <p>&copy; 2025 James </p>
   </footer>
-
-  <!-- External JavaScript -->
-  <script src="js/script.js"></script>
+  
+  <script src="./script/main.js"></script>
 </body>
 </html>
