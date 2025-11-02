@@ -1,7 +1,12 @@
-body {
+* {
+  color: black;
+  box-sizing: border-box;
   font-family: Arial, sans-serif;
+}
+
+body {
   margin: 40px;
-  background-color: #f9f9f9;
+  background-color:whitesmoke;
 }
 
 header, nav, main, footer {
@@ -17,6 +22,27 @@ nav li {
   display: inline-block;
   margin-right: 10px;
 }
+
+nav li a:hover {
+  background-color: goldenrod;
+}
+
+nav li a:visited,a:active {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+footer :hover {
+  color: goldenrod;
+}
+/* nav li a.current {
+  text-decoration: none;
+} */
+
 
 table {
   border-collapse: collapse;
@@ -38,18 +64,20 @@ caption {
 }
 h1 img {
     border-radius: 50%;
+    background-color: #f9f9f9;
+    color: black;
 }
-/* ul {
-    list-style-type: none;
-    
-} */
 
 #media-list ul {
     list-style-type: none;
-      padding-left: 0;        /* removes default indentation */
-      margin-left: 0;         /* optional: remove extra left margin */
-      display: flex;          /* optional: align items horizontally */
-      flex-direction: column; /* stack items vertically */
+      padding-left: 0;        
+      margin-left: 0;         
+      display: flex;          
+      flex-direction: column; 
       gap: 20px;
 }
 
+.highlight {
+  color: darkcyan;
+  font-style: italic;
+}
