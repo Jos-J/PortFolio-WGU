@@ -1,91 +1,61 @@
 # Project Overview
+# Career Portfolio Project
 
-This project provides a general overview of a back-end development profile, including experience, technical skills, education, and career goals. It is intended for academic and professional demonstration purposes and focuses on core server-side development concepts.
-
----
-
-## Purpose
-
-The purpose of this project is to:
-
-- Demonstrate understanding of back-end development principles  
-- Present experience and skills in a clear, structured format  
-- Highlight long-term professional growth and learning objectives  
+This project was created as part of a school assignment focused on professional development. It includes a resume, cover letter, and a statement of career goals to demonstrate readiness for entry into the professional workforce.
 
 ---
 
-## Contents
+## Project Description
 
-- README / Project Overview  
-- [Cover letter](./index.html)
-- [Professional Experience Summary](resume.html)
-- Education and Technical Skills
-- [Career goals](/careerGoals.html)  
+The purpose of this project is to develop and present essential career documents in a clear, organized, and professional format. It emphasizes written communication, self-reflection, and an understanding of career planning.
 
 ---
 
-## Technologies Referenced
+## Project Components
 
-- Node.js  
-- Express.js  
-- RESTful API architecture  
-- SQL & relational databases  
-- Cloud platforms  
-- CI/CD concepts  
+- **Resume**  
+  A summary of education, skills, and professional experience.
+
+- **Cover Letter**  
+  A formal letter expressing interest in a professional role and highlighting relevant qualifications.
+
+- **Career Goals**  
+  A written statement outlining short-term and long-term professional objectives and areas for continued growth.
+
+---
+
+## Learning Objectives
+
+Through this project, the following skills are demonstrated:
+
+- Professional writing and formatting  
+- Career planning and goal setting  
+- Organization and presentation of personal information  
+- Use of basic web or document formatting tools  
+
+---
+
+## Technologies / Tools Used
+
+- HTML and CSS (if applicable)  
+- Markdown  
+- Text editor or IDE  
+- Web browser  
 
 ---
 
 ## Notes
 
-- This project is for demonstration and learning purposes.
-- Content may be updated as knowledge and experience expand.
+- This project is for academic purposes.
+- Content may be updated or refined as professional goals evolve.
+- Formatting and structure were prioritized for clarity and readability.
 
 ---
 
-# About
+## Conclusion
 
-## Overview
+This project represents an important step in career preparation by organizing key professional materials in one cohesive presentation.
 
-This section provides a general background focused on back-end development interests, experience, and professional goals. It emphasizes system design, server-side application development, and secure data management.
+## Live Demo
 
----
-
-## Experience Summary
-
-- Experience developing and maintaining server-side applications  
-- Design and implementation of RESTful APIs  
-- Management and optimization of relational databases  
-- Focus on performance, security, and scalability  
-- Collaboration with front-end and DevOps teams  
-
----
-
-## Education
-
-- Bachelor’s degree in Computer Science  
-- Bachelor’s degree in Information Technology  
-- Additional academic background in related disciplines  
-
----
-
-## Technical Skills
-
-- Server-side JavaScript (Node.js, Express.js)  
-- RESTful API design  
-- SQL and relational database management  
-- Application security and performance optimization  
-- Testing and deployment concepts  
-
----
-
-## Career Goals
-
-The goal of this project is to reflect ongoing growth in back-end development. Emphasis is placed on strengthening server-side expertise, improving database design skills, and gaining experience with scalable and secure application architectures.
-
-Long-term objectives include contributing to complex systems, following best practices in testing and deployment, and continuously learning emerging technologies in back-end and cloud development.
-
----
-
-## Closing
-
-This project represents a commitment to continuous learning and professional development in back-end engineering.
+👉 [Portfolio](https://jos-j.github.io/PortFolio-WGU/)
