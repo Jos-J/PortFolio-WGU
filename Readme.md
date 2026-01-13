@@ -17,9 +17,10 @@ The purpose of this project is to:
 ## Contents
 
 - README / Project Overview  
-- About Page  
-- Professional Experience Summary  
-- Education and Technical Skills  
+- [Cover letter](./index.html)
+- [Professional Experience Summary](resume.html)
+- Education and Technical Skills
+- [Career goals](/careerGoals.html)  
 
 ---
 
