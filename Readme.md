@@ -1,10 +1,9 @@
-# Project Overview
 # Career Portfolio Project
 
 This project was created as part of a school assignment focused on professional development. It includes a resume, cover letter, and a statement of career goals to demonstrate readiness for entry into the professional workforce.
 
+![MIT License](https://img.shields.io/badge/License-MIT-darkgreen.svg)
 ---
-
 ## Project Description
 
 The purpose of this project is to develop and present essential career documents in a clear, organized, and professional format. It emphasizes written communication, self-reflection, and an understanding of career planning.
@@ -59,3 +58,5 @@ This project represents an important step in career preparation by organizing ke
 ## Live Demo
 
 👉 [Portfolio](https://jos-j.github.io/PortFolio-WGU/)
+
+
